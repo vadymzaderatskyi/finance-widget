@@ -1,0 +1,98 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.cont {
+  width: 650px;
+}
+
+table {
+  background-color: #12233a !important;
+  border-radius: 1rem !important;
+  overflow: hidden;
+  padding-left: 20px !important;
+}
+
+table thead {
+  background-color: #1a2f4b;
+}
+
+table thead th {
+  color: white;
+  font-weight: 500;
+}
+
+table tr {
+  line-height: 30px;
+  height: 51.5px;
+}
+
+table td,
+table th {
+  color: #6f8fbb;
+  text-align: center;
+  font-weight: 500;
+  border-color: #495971;
+  vertical-align: baseline;
+}
+
+table button {
+  border-radius: 2px;
+  border: 0;
+  width: 90px;
+  height: 30px;
+  background: #12233a;
+  color: inherit;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.button-gradient {
+  border-radius: 2px;
+  width: 94px;
+  height: 34px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, right top, from(#744aff), to(#7bcfff));
+  background: linear-gradient(90deg, #744aff 0%, #7bcfff 100%);
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+}
+
+.button-gradient:hover {
+  background-position: 94px;
+}
+
+.chg-up {
+  color: #2db071 !important;
+}
+
+.chg-down {
+  color: #b02d2d !important;
+}
+
+.table-dark {
+  color: #1a2f4b;
+  --bs-table-bg: transparent;
+  --bs-table-hover-bg: #1a2f4b;
+  --bs-table-hover-color: #6f8fbb;
+}
